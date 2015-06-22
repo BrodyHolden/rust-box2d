@@ -8,6 +8,7 @@ pub enum BodyType {
 	DynamicBody
 }
 
+#[derive(Clone)]
 pub struct BodyDef {
 	pub shape: Shape,
 	pub body_type: BodyType,
